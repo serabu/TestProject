@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "plugins": [{ "name": "typescript-plugin-css-modules" }],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "./src/**/*.tsx", 
+    "./src/**/*.ts", 
+    "./typings/*.ts",
+    "declaration.d.ts"
+, "src/tests/Counter.test.ts", "src/components/navigation/Navigation.", "src/components/Users/UserProfile/userWrapper/userWrapper.tsч"  ]
+}

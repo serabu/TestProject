@@ -1,0 +1,33 @@
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.filters-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.filter-input,
+.filter-select {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.filter-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.filter-button:hover {
+  background-color: #0056b3;
+}

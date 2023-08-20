@@ -1,0 +1,36 @@
+.character-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.character-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.character-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.character-details {
+  flex: 1;
+}
+
+.character-name {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.character-info {
+  margin: 0;
+}
